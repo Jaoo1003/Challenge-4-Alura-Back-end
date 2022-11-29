@@ -1,0 +1,40 @@
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Alura Beck-End\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Alura Beck-End\bin\Debug\net6.0\appsettings.json
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Alura Beck-End\bin\Debug\net6.0\Challenge 4 Alura Beck-End.exe
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Alura Beck-End\bin\Debug\net6.0\Challenge 4 Alura Beck-End.deps.json
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Alura Beck-End\bin\Debug\net6.0\Challenge 4 Alura Beck-End.runtimeconfig.json
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Alura Beck-End\bin\Debug\net6.0\Challenge 4 Alura Beck-End.dll
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Alura Beck-End\bin\Debug\net6.0\Challenge 4 Alura Beck-End.pdb
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Alura Beck-End\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Alura Beck-End\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Alura Beck-End\bin\Debug\net6.0\Humanizer.dll
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Alura Beck-End\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Alura Beck-End\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Alura Beck-End\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Alura Beck-End\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Alura Beck-End\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Alura Beck-End\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Alura Beck-End\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Alura Beck-End\bin\Debug\net6.0\MySqlConnector.dll
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Alura Beck-End\bin\Debug\net6.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Alura Beck-End\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Alura Beck-End\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Alura Beck-End\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Alura Beck-End\obj\Debug\net6.0\Challenge 4 Alura Beck-End.csproj.AssemblyReference.cache
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Alura Beck-End\obj\Debug\net6.0\Challenge 4 Alura Beck-End.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Alura Beck-End\obj\Debug\net6.0\Challenge 4 Alura Beck-End.AssemblyInfoInputs.cache
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Alura Beck-End\obj\Debug\net6.0\Challenge 4 Alura Beck-End.AssemblyInfo.cs
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Alura Beck-End\obj\Debug\net6.0\Challenge 4 Alura Beck-End.csproj.CoreCompileInputs.cache
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Alura Beck-End\obj\Debug\net6.0\Challenge 4 Alura Beck-End.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Alura Beck-End\obj\Debug\net6.0\Challenge 4 Alura Beck-End.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Alura Beck-End\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Alura Beck-End\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Alura Beck-End\obj\Debug\net6.0\scopedcss\bundle\Challenge 4 Alura Beck-End.styles.css
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Alura Beck-End\obj\Debug\net6.0\Challenge 4 Alura Beck-End.csproj.CopyComplete
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Alura Beck-End\obj\Debug\net6.0\Challenge 4 Alura Beck-End.dll
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Alura Beck-End\obj\Debug\net6.0\refint\Challenge 4 Alura Beck-End.dll
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Alura Beck-End\obj\Debug\net6.0\Challenge 4 Alura Beck-End.pdb
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Alura Beck-End\obj\Debug\net6.0\Challenge 4 Alura Beck-End.genruntimeconfig.cache
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Alura Beck-End\obj\Debug\net6.0\ref\Challenge 4 Alura Beck-End.dll
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Alura Beck-End\bin\Debug\net6.0\FluentResults.dll
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Alura Beck-End\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
