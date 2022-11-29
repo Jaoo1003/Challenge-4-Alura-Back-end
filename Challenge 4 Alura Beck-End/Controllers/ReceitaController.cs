@@ -22,7 +22,6 @@ namespace Challenge_4_Alura_Beck_End.Controllers {
             if (readDto == null) {
                 return Ok("Falha ao cadastrar nova receita");
             }
-            readDto.Date = createDto.Date;
             return CreatedAtAction(nameof(BuscaReceitaPorId), new { Id = readDto.Id }, readDto);
         }
 
