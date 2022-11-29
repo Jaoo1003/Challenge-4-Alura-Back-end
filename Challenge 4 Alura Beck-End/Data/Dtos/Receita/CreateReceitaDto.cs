@@ -8,6 +8,6 @@ namespace Challenge_4_Alura_Beck_End.Data.Dtos.Receita {
         [Required(ErrorMessage = "O Valor é um campo obrigatório")]
         public double Valor { get; set; }
         [Required(ErrorMessage = "A Data é um campo obrigatório")]
-        public DateTime Date { get; set; }
+        public DateTime Data { get; set; }
     }
 }

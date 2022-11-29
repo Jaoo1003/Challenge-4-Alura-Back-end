@@ -14,6 +14,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<AppDbContext>(options => options.UseMySql(builder.Configuration.GetConnectionString("Challenge4Connection"), new MySqlServerVersion(new Version(8,0))));
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 builder.Services.AddScoped<ReceitaService, ReceitaService>();
+builder.Services.AddScoped<DespesaService, DespesaService>();
 
 var app = builder.Build();
 

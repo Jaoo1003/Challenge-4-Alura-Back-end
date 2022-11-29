@@ -16,10 +16,9 @@ namespace Challenge_4_Alura_Beck_End.Service {
         }
 
         public ReadReceitaDto CadastroReceita(CreateReceitaDto createDto) {
-            Receita verificaReceita = _context.Receitas.FirstOrDefault(r => r.Descricao == createDto.Descricao && r.Data.Month == createDto.Date.Month);
+            Receita verificaReceita = _context.Receitas.FirstOrDefault(r => r.Descricao == createDto.Descricao && r.Data.Month == createDto.Data.Month);
             if (verificaReceita == null) {
                 Receita receita = _mapper.Map<Receita>(createDto);
-                receita.Data = createDto.Date;
                 _context.Add(receita);
                 _context.SaveChanges();
                 return _mapper.Map<ReadReceitaDto>(receita);
