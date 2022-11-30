@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace Challenge_4_Alura_Beck_End.Controllers {
     [ApiController]
     [Route("[controller]")]
-    public class DespesaController : ControllerBase{
+    public class DespesaController : ControllerBase {
 
         private DespesaService _despesaService;
 
@@ -17,11 +17,10 @@ namespace Challenge_4_Alura_Beck_End.Controllers {
 
         [HttpPost]
         public IActionResult CadastraDespesa(CreateDespesaDto createDto) {
-            ReadDespesaDto readDto = _despesaService.CadastraDespesa(createDto);
+            ReadDespesaDto readDto = _despesaService.CadastraDespesa(createDto);            
             if (readDto == null) {
                 return Ok("Falha ao cadastrar nova despesa");
             }
-            readDto.Data = createDto.Data;
             return CreatedAtAction(nameof(BuscaDespesaPorId), new { id = readDto.Id }, readDto);
         }
 

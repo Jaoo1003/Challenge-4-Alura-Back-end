@@ -1,8 +1,10 @@
 ﻿using AutoMapper;
 using Challenge_4_Alura_Beck_End.Data;
 using Challenge_4_Alura_Beck_End.Data.Dtos.Despesa;
+using Challenge_4_Alura_Beck_End.Migrations;
 using Challenge_4_Alura_Beck_End.Models;
 using FluentResults;
+using Microsoft.AspNetCore.Mvc;
 
 namespace Challenge_4_Alura_Beck_End.Service {
     public class DespesaService {
@@ -15,8 +17,8 @@ namespace Challenge_4_Alura_Beck_End.Service {
             _mapper = mapper;
         }
 
-        public ReadDespesaDto CadastraDespesa(CreateDespesaDto createDto) {
-            Despesa verificaDespesa = _context.Despesas.FirstOrDefault(d => d.Descricao == createDto.Descricao && d.Data.Month == createDto.Data.Month);
+        public ReadDespesaDto CadastraDespesa(CreateDespesaDto createDto,string categoria) {
+            Despesa verificaDespesa = _context.Despesas.FirstOrDefault(d => d.Descricao == createDto.Descricao && d.Data.Month == createDto.Data.Month);            
             if (verificaDespesa == null) {
                 Despesa despesa = _mapper.Map<Despesa>(createDto);
                 _context.Add(despesa);
