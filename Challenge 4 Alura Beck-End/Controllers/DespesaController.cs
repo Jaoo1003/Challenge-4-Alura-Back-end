@@ -16,7 +16,7 @@ namespace Challenge_4_Alura_Beck_End.Controllers {
         }
 
         [HttpPost]
-        public IActionResult CadastraDespesa(CreateDespesaDto createDto) {
+        public IActionResult CadastraDespesa([FromBody] CreateDespesaDto createDto) {
             ReadDespesaDto readDto = _despesaService.CadastraDespesa(createDto);            
             if (readDto == null) {
                 return Ok("Falha ao cadastrar nova despesa");

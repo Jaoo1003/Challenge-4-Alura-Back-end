@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Challenge_4_Alura_Beck_End.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20221130165521_Adicinando tabela de categorias")]
-    partial class Adicinandotabeladecategorias
+    [Migration("20221201202313_teste5")]
+    partial class teste5
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -27,7 +27,7 @@ namespace Challenge_4_Alura_Beck_End.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    b.Property<string>("Tipo")
+                    b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("longtext");
 

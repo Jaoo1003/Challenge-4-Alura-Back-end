@@ -15,6 +15,7 @@ builder.Services.AddDbContext<AppDbContext>(options => options.UseMySql(builder.
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 builder.Services.AddScoped<ReceitaService, ReceitaService>();
 builder.Services.AddScoped<DespesaService, DespesaService>();
+builder.Services.AddScoped<CategoriaService, CategoriaService>();
 
 var app = builder.Build();
 

@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
 namespace Challenge_4_Alura_Beck_End.Data.Dtos.Despesa {
-    public class CreateDespesaDto {
+    public class UpdateDespesaDto {
         [Required]
         public string Descricao { get; set; }
         [Required]

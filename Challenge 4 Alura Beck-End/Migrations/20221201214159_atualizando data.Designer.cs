@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Challenge_4_Alura_Beck_End.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20221129205125_Implementando Categoria nas despesas")]
-    partial class ImplementandoCategorianasdespesas
+    [Migration("20221201214159_atualizando data")]
+    partial class atualizandodata
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -21,17 +21,31 @@ namespace Challenge_4_Alura_Beck_End.Migrations
                 .HasAnnotation("ProductVersion", "6.0.11")
                 .HasAnnotation("Relational:MaxIdentifierLength", 64);
 
+            modelBuilder.Entity("Challenge_4_Alura_Beck_End.Models.Categoria", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Categorias");
+                });
+
             modelBuilder.Entity("Challenge_4_Alura_Beck_End.Models.Despesa", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    b.Property<string>("Categoria")
-                        .IsRequired()
-                        .HasColumnType("longtext");
+                    b.Property<int>("CategoriaId")
+                        .HasColumnType("int");
 
-                    b.Property<DateTime>("Data")
+                    b.Property<DateTime>("Date")
                         .HasColumnType("datetime(6)");
 
                     b.Property<string>("Descricao")
@@ -42,6 +56,8 @@ namespace Challenge_4_Alura_Beck_End.Migrations
                         .HasColumnType("double");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("CategoriaId");
 
                     b.ToTable("Despesas");
                 });
@@ -65,6 +81,22 @@ namespace Challenge_4_Alura_Beck_End.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Receitas");
+                });
+
+            modelBuilder.Entity("Challenge_4_Alura_Beck_End.Models.Despesa", b =>
+                {
+                    b.HasOne("Challenge_4_Alura_Beck_End.Models.Categoria", "Categoria")
+                        .WithMany("Despesas")
+                        .HasForeignKey("CategoriaId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Categoria");
+                });
+
+            modelBuilder.Entity("Challenge_4_Alura_Beck_End.Models.Categoria", b =>
+                {
+                    b.Navigation("Despesas");
                 });
 #pragma warning restore 612, 618
         }

@@ -19,22 +19,27 @@ namespace Challenge_4_Alura_Beck_End.Service {
             Receita verificaReceita = _context.Receitas.FirstOrDefault(r => r.Descricao == createDto.Descricao && r.Data.Month == createDto.Data.Month);
             if (verificaReceita == null) {
                 Receita receita = _mapper.Map<Receita>(createDto);
-                _context.Add(receita);
+                _context.Receitas.Add(receita);
                 _context.SaveChanges();
                 return _mapper.Map<ReadReceitaDto>(receita);
             }
             return null;
         }
 
-        public List<ReadReceitaDto> BuscaReceita() {
-            List<Receita> receitas = _context.Receitas.ToList();
-            if (receitas == null) {
-                return null;
+        public List<ReadReceitaDto> BuscaReceita(string? desc) {
+            List<Receita> receitas;
+            if (desc == null) {
+                receitas = _context.Receitas.ToList();
             }
             else {
+                receitas = _context.Receitas.Where(receita => receita.Descricao == desc).ToList();
+            }
+
+            if (receitas != null) {
                 List<ReadReceitaDto> readDto = _mapper.Map<List<ReadReceitaDto>>(receitas);
                 return readDto;
             }
+            return null;
         }
 
         public ReadReceitaDto BuscaReceitaPorId(int id) {

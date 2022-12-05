@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Challenge_4_Alura_Beck_End.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20221129181156_Configurando banco de dados Challenge4Alura")]
-    partial class ConfigurandobancodedadosChallenge4Alura
+    [Migration("20221201191310_teste6")]
+    partial class teste6
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -21,10 +21,28 @@ namespace Challenge_4_Alura_Beck_End.Migrations
                 .HasAnnotation("ProductVersion", "6.0.11")
                 .HasAnnotation("Relational:MaxIdentifierLength", 64);
 
+            modelBuilder.Entity("Challenge_4_Alura_Beck_End.Models.Categoria", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    b.Property<string>("CategoriaTipo")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Categorias");
+                });
+
             modelBuilder.Entity("Challenge_4_Alura_Beck_End.Models.Despesa", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    b.Property<int>("CategoriaId")
                         .HasColumnType("int");
 
                     b.Property<DateTime>("Data")
@@ -38,6 +56,8 @@ namespace Challenge_4_Alura_Beck_End.Migrations
                         .HasColumnType("double");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("CategoriaId");
 
                     b.ToTable("Despesas");
                 });
@@ -61,6 +81,22 @@ namespace Challenge_4_Alura_Beck_End.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Receitas");
+                });
+
+            modelBuilder.Entity("Challenge_4_Alura_Beck_End.Models.Despesa", b =>
+                {
+                    b.HasOne("Challenge_4_Alura_Beck_End.Models.Categoria", "CategoriaTipo")
+                        .WithMany("Despesas")
+                        .HasForeignKey("CategoriaId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("CategoriaTipo");
+                });
+
+            modelBuilder.Entity("Challenge_4_Alura_Beck_End.Models.Categoria", b =>
+                {
+                    b.Navigation("Despesas");
                 });
 #pragma warning restore 612, 618
         }
