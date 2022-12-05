@@ -3,6 +3,7 @@ using Challenge_4_Alura_Beck_End.Data;
 using Challenge_4_Alura_Beck_End.Data.Dtos.Receita;
 using Challenge_4_Alura_Beck_End.Models;
 using FluentResults;
+using System.Linq;
 
 namespace Challenge_4_Alura_Beck_End.Service {
     public class ReceitaService {
@@ -44,8 +45,25 @@ namespace Challenge_4_Alura_Beck_End.Service {
 
         public ReadReceitaDto BuscaReceitaPorId(int id) {
             Receita receita = _context.Receitas.FirstOrDefault(receita => receita.Id == id);
-            if (receita != null) {
+            if (receita == null) {
+                return null;
+            }
+            else {
                 ReadReceitaDto readDto = _mapper.Map<ReadReceitaDto>(receita);
+                return readDto;
+            }
+        }
+
+        public List<ReadReceitaDto> BuscaReceitaPorMes(int? ano, int? mes) {
+            List<Receita> receitas;
+            if (ano == null || mes == null) {
+                return null;
+            }
+            else {
+                receitas = _context.Receitas.Where(receita => receita.Data.Year == ano && receita.Data.Month == mes).ToList();
+            }
+            if (receitas != null) {
+                List<ReadReceitaDto> readDto = _mapper.Map<List<ReadReceitaDto>>(receitas);
                 return readDto;
             }
             return null;

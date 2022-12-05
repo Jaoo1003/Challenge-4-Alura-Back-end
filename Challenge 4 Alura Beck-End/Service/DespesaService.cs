@@ -17,7 +17,7 @@ namespace Challenge_4_Alura_Beck_End.Service {
         }
 
         public ReadDespesaDto CadastraDespesa(CreateDespesaDto createDto) {
-            Despesa verificaDespesa = _context.Despesas.FirstOrDefault(d => d.Descricao == createDto.Descricao && d.Date.Month == createDto.Data.Month);    
+            Despesa verificaDespesa = _context.Despesas.FirstOrDefault(d => d.Descricao == createDto.Descricao && d.Data.Month = createDto.Data);    
             if (verificaDespesa == null) {
                 Despesa despesa = _mapper.Map<Despesa>(createDto);
                 _context.Despesas.Add(despesa);

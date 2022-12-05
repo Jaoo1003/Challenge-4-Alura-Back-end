@@ -39,6 +39,13 @@ namespace Challenge_4_Alura_Beck_End.Controllers {
             return NotFound();
         }
 
+        [HttpGet("{ano}/{mes}")]
+        public IActionResult BuscaReceitaPorMes(int ano, int mes) {
+            List<ReadReceitaDto> readDto = _receitaService.BuscaReceitaPorMes(ano, mes);
+            if (readDto != null) return Ok(readDto);
+            return NotFound();
+        }
+
         [HttpPut("{id}")]
         public IActionResult AtualizaReceita(int id, [FromBody] UpdateReceitaDto updateDto) {
             Result resultado = _receitaService.AtualizaReceita(id, updateDto);

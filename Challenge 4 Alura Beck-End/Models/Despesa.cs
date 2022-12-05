@@ -8,7 +8,7 @@ namespace Challenge_4_Alura_Beck_End.Models {
         public int Id { get; set; }
         public string Descricao { get; set; }
         public double Valor { get; set; }
-        public DateTime Date { get; set; }
+        public DateTime Data { get; set; }
         public Categoria Categoria { get; set; }
         public int CategoriaId { get; set; }
     }
