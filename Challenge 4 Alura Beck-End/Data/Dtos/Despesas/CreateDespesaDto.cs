@@ -7,7 +7,7 @@ namespace Challenge_4_Alura_Beck_End.Data.Dtos.Despesa {
         public string Descricao { get; set; }
         [Required]
         public double? Valor { get; set; }
-        [DataType(DataType.Date)]
+        [DataType(DataType.Date)]        
         public DateTime Data { get; set; }
         public int CategoriaId { get; set; }
     }

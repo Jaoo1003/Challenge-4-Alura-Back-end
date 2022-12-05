@@ -26,8 +26,8 @@ namespace Challenge_4_Alura_Beck_End.Controllers {
         }
 
         [HttpGet]
-        public IActionResult BuscaReceita([FromQuery] string? desc = null) {
-            List<ReadReceitaDto> readDto = _receitaService.BuscaReceita(desc);
+        public IActionResult BuscaReceita([FromQuery] string? descricao = null) {
+            List<ReadReceitaDto> readDto = _receitaService.BuscaReceita(descricao);
             if (readDto != null) return Ok(readDto);
             return NotFound();
         }

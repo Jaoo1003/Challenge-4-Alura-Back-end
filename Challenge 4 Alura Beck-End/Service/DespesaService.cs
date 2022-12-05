@@ -27,12 +27,20 @@ namespace Challenge_4_Alura_Beck_End.Service {
             return null;
         }
 
-        public List<ReadDespesaDto> BuscaDespesa() {
-            List<Despesa> despesa = _context.Despesas.ToList();
-            if (despesa == null) {
-                return null;
+        public List<ReadDespesaDto> BuscaDespesa(string? descricao) {
+            List<Despesa> despesas;
+            if (descricao == null) {
+                despesas = _context.Despesas.ToList();
             }
-            return _mapper.Map<List<ReadDespesaDto>>(despesa);
+            else {
+                despesas = _context.Despesas.Where(despesa => despesa.Descricao == descricao).ToList();
+            }
+            if (despesas != null) {
+                List<ReadDespesaDto> readDto = _mapper.Map<List<ReadDespesaDto>>(despesas);
+                return readDto;
+            }
+            return null;
+            
         }
 
         public ReadDespesaDto BuscaDespesaPorId(int id) {

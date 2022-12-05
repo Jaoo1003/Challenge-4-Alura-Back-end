@@ -26,13 +26,13 @@ namespace Challenge_4_Alura_Beck_End.Service {
             return null;
         }
 
-        public List<ReadReceitaDto> BuscaReceita(string? desc) {
+        public List<ReadReceitaDto> BuscaReceita(string? descricao) {
             List<Receita> receitas;
-            if (desc == null) {
+            if (descricao == null) {
                 receitas = _context.Receitas.ToList();
             }
             else {
-                receitas = _context.Receitas.Where(receita => receita.Descricao == desc).ToList();
+                receitas = _context.Receitas.Where(receita => receita.Descricao == descricao).ToList();
             }
 
             if (receitas != null) {

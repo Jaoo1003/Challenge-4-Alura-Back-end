@@ -25,8 +25,8 @@ namespace Challenge_4_Alura_Beck_End.Controllers {
         }
 
         [HttpGet]
-        public IActionResult BuscaDespesa() {
-            List<ReadDespesaDto> readDto = _despesaService.BuscaDespesa();
+        public IActionResult BuscaDespesa([FromQuery] string? descricao = null) {
+            List<ReadDespesaDto> readDto = _despesaService.BuscaDespesa(descricao);
             if (readDto != null) return Ok(readDto);
             return NotFound();
         }
