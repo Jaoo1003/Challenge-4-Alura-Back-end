@@ -38,3 +38,5 @@ C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Ch
 C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Alura Beck-End\obj\Debug\net6.0\ref\Challenge 4 Alura Beck-End.dll
 C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Alura Beck-End\bin\Debug\net6.0\FluentResults.dll
 C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Alura Beck-End\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Alura Beck-End\bin\Debug\net6.0\Castle.Core.dll
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Alura Beck-End\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Proxies.dll

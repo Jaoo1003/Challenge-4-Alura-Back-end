@@ -1,4 +1,4 @@
-﻿using Challenge_4_Alura_Beck_End.Data.Dtos.Despesa;
+﻿using Challenge_4_Alura_Beck_End.Data.Dtos.Despesas;
 using Challenge_4_Alura_Beck_End.Models;
 using Challenge_4_Alura_Beck_End.Service;
 using FluentResults;

@@ -1,4 +1,4 @@
-﻿using Challenge_4_Alura_Beck_End.Data.Dtos.Receita;
+﻿using Challenge_4_Alura_Beck_End.Data.Dtos.Receitas;
 using Challenge_4_Alura_Beck_End.Models;
 using Challenge_4_Alura_Beck_End.Service;
 using FluentResults;

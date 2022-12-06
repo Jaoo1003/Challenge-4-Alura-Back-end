@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Challenge_4_Alura_Beck_End.Data.Dtos.Despesa {
+namespace Challenge_4_Alura_Beck_End.Data.Dtos.Despesas {
     public class UpdateDespesaDto {
         [Required]
         public string Descricao { get; set; }

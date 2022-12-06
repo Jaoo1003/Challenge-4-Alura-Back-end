@@ -9,7 +9,7 @@ namespace Challenge_4_Alura_Beck_End.Models {
         public string Descricao { get; set; }
         public double Valor { get; set; }
         public DateTime Data { get; set; }
-        public Categoria Categoria { get; set; }
+        public virtual Categoria Categoria { get; set; }
         public int CategoriaId { get; set; }
     }
 } 
