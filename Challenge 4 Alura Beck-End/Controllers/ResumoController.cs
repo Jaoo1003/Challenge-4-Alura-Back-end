@@ -13,9 +13,9 @@ namespace Challenge_4_Alura_Beck_End.Controllers {
             _resumoService = resumoService;
         }
 
-        [HttpGet]
-        public IActionResult BuscaResumo() {
-            ResumoDto resumoDto = _resumoService.BuscaResumo();
+        [HttpGet("{ano}/{mes}")]
+        public IActionResult BuscaResumo(int ano, int mes) {
+            ResumoDto resumoDto = _resumoService.BuscaResumo(ano, mes);
             if (resumoDto != null) return Ok(resumoDto);
             return null;
         }

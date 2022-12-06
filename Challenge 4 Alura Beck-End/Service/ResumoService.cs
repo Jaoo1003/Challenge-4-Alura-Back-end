@@ -14,9 +14,9 @@ namespace Challenge_4_Alura_Beck_End.Service {
             _mapper = mapper;
         }
 
-        public ResumoDto BuscaResumo() {
-            List<Despesa> despesas = _context.Despesas.ToList();
-            List<Receita> receitas = _context.Receitas.ToList();
+        public ResumoDto BuscaResumo(int ano, int mes) {
+            List<Despesa> despesas = _context.Despesas.Where(despesa => despesa.Data.Year == ano && despesa.Data.Month == mes).ToList();
+            List<Receita> receitas = _context.Receitas.Where(receita => receita.Data.Year == ano && receita.Data.Month == mes).ToList();
             ResumoDto resumos = new ResumoDto();
             if (despesas != null || receitas != null) {
                 resumos.Receitas = receitas;
