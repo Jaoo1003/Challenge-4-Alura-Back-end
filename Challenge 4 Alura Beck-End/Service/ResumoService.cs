@@ -7,11 +7,9 @@ namespace Challenge_4_Alura_Beck_End.Service {
     public class ResumoService {
 
         private AppDbContext _context;
-        private IMapper _mapper;
 
-        public ResumoService(AppDbContext context, IMapper mapper) {
+        public ResumoService(AppDbContext context) {
             _context = context;
-            _mapper = mapper;
         }
 
         public ResumoDto BuscaResumo(int ano, int mes) {
