@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Challenge 4 Alura Beck-End", "Challenge 4 Alura Beck-End\Challenge 4 Alura Beck-End.csproj", "{583169A2-E916-4F27-83FB-FAF766D89748}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Challenge 4 Alura Beck-End", "Challenge 4 Alura Beck-End\Challenge 4 Alura Beck-End.csproj", "{583169A2-E916-4F27-83FB-FAF766D89748}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Challenge 4 Users", "Challenge 4 Users\Challenge 4 Users.csproj", "{796D8BDE-248A-47C2-978B-DCC6B26D7F0F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{583169A2-E916-4F27-83FB-FAF766D89748}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{583169A2-E916-4F27-83FB-FAF766D89748}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{583169A2-E916-4F27-83FB-FAF766D89748}.Release|Any CPU.Build.0 = Release|Any CPU
+		{796D8BDE-248A-47C2-978B-DCC6B26D7F0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{796D8BDE-248A-47C2-978B-DCC6B26D7F0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{796D8BDE-248A-47C2-978B-DCC6B26D7F0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{796D8BDE-248A-47C2-978B-DCC6B26D7F0F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

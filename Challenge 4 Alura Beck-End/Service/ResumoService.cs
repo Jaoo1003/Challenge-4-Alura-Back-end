@@ -7,9 +7,10 @@ namespace Challenge_4_Alura_Beck_End.Service {
     public class ResumoService {
 
         private AppDbContext _context;
-
-        public ResumoService(AppDbContext context) {
+        private IMapper _mapper;
+        public ResumoService(AppDbContext context, IMapper mapper) {
             _context = context;
+            _mapper = mapper;
         }
 
         public ResumoDto BuscaResumo(int ano, int mes) {
@@ -19,6 +20,15 @@ namespace Challenge_4_Alura_Beck_End.Service {
             if (despesas != null || receitas != null) {
                 resumos.Receitas = receitas;
                 resumos.Despesas = despesas;
+
+                for (int i = 0; i < despesas.Count; i++) {
+                    resumos.ValorTotalDespesa += despesas[i].Valor;
+                }
+                for (int j = 0; j < receitas.Count; j++) {
+                    resumos.ValorTotalReceita = +receitas[j].Valor;
+                }
+                resumos.SaldoFinal = resumos.ValorTotalReceita - resumos.ValorTotalDespesa;
+
                 return resumos;
             }
             return null;

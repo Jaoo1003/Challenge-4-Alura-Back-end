@@ -31,7 +31,7 @@ namespace Challenge_4_Alura_Beck_End.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Categorias");
+                    b.ToTable("Categorias", (string)null);
                 });
 
             modelBuilder.Entity("Challenge_4_Alura_Beck_End.Models.Despesa", b =>
@@ -57,7 +57,7 @@ namespace Challenge_4_Alura_Beck_End.Migrations
 
                     b.HasIndex("CategoriaId");
 
-                    b.ToTable("Despesas");
+                    b.ToTable("Despesas", (string)null);
                 });
 
             modelBuilder.Entity("Challenge_4_Alura_Beck_End.Models.Receita", b =>
@@ -78,7 +78,7 @@ namespace Challenge_4_Alura_Beck_End.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Receitas");
+                    b.ToTable("Receitas", (string)null);
                 });
 
             modelBuilder.Entity("Challenge_4_Alura_Beck_End.Models.Despesa", b =>

@@ -1,0 +1,53 @@
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Users\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Users\bin\Debug\net6.0\appsettings.json
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Users\bin\Debug\net6.0\Challenge 4 Users.exe
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Users\bin\Debug\net6.0\Challenge 4 Users.deps.json
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Users\bin\Debug\net6.0\Challenge 4 Users.runtimeconfig.json
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Users\bin\Debug\net6.0\Challenge 4 Users.dll
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Users\bin\Debug\net6.0\Challenge 4 Users.pdb
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Users\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Users\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Users\bin\Debug\net6.0\FluentResults.dll
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Users\bin\Debug\net6.0\Humanizer.dll
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Users\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Users\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Users\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Users\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Users\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Users\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Users\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Users\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Users\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Users\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Users\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Users\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Users\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Users\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Users\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Users\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Users\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Users\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Users\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Users\bin\Debug\net6.0\MySqlConnector.dll
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Users\bin\Debug\net6.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Users\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Users\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Users\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Users\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Users\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Users\obj\Debug\net6.0\Challenge 4 Users.csproj.AssemblyReference.cache
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Users\obj\Debug\net6.0\Challenge 4 Users.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Users\obj\Debug\net6.0\Challenge 4 Users.AssemblyInfoInputs.cache
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Users\obj\Debug\net6.0\Challenge 4 Users.AssemblyInfo.cs
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Users\obj\Debug\net6.0\Challenge 4 Users.csproj.CoreCompileInputs.cache
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Users\obj\Debug\net6.0\Challenge 4 Users.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Users\obj\Debug\net6.0\Challenge 4 Users.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Users\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Users\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Users\obj\Debug\net6.0\scopedcss\bundle\Challenge 4 Users.styles.css
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Users\obj\Debug\net6.0\Challenge 4 Users.csproj.CopyComplete
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Users\obj\Debug\net6.0\Challenge 4 Users.dll
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Users\obj\Debug\net6.0\refint\Challenge 4 Users.dll
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Users\obj\Debug\net6.0\Challenge 4 Users.pdb
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Users\obj\Debug\net6.0\Challenge 4 Users.genruntimeconfig.cache
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Users\obj\Debug\net6.0\ref\Challenge 4 Users.dll
