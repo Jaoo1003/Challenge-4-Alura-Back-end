@@ -21,6 +21,13 @@ builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 builder.Services.AddScoped<CadastroService, CadastroService>();
 builder.Services.AddScoped<LoginService, LoginService>();
 builder.Services.AddScoped<LogoutService, LogoutService>();
+builder.Services.AddScoped<EmailService, EmailService>();
+
+builder.Services.AddIdentity<IdentityUser<int>, IdentityRole<int>>(
+    opt => opt.SignIn.RequireConfirmedEmail = true
+    )
+    .AddEntityFrameworkStores<UserDbContext>()
+    .AddDefaultTokenProviders();
 
 var app = builder.Build();
 

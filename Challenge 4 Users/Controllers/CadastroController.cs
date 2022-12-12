@@ -18,7 +18,7 @@ namespace Challenge_4_Users.Controllers {
         public IActionResult CadastraUsuario(CreateUsuarioDto createDto) {
             Result resultado = _cadastroService.CadastraUsuario(createDto);
             if (resultado.IsFailed) return StatusCode(500);
-            return Ok();
+            return Ok(resultado.Successes.First());
         }
     }
 }

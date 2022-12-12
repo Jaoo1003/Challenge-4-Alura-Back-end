@@ -51,3 +51,6 @@ C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Ch
 C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Users\obj\Debug\net6.0\Challenge 4 Users.pdb
 C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Users\obj\Debug\net6.0\Challenge 4 Users.genruntimeconfig.cache
 C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Users\obj\Debug\net6.0\ref\Challenge 4 Users.dll
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Users\bin\Debug\net6.0\MailKit.dll
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Users\bin\Debug\net6.0\MimeKit.dll
+C:\Users\vitoo\OneDrive\Área de Trabalho\Projetos\Challenge 4 Alura Beck-End\Challenge 4 Users\bin\Debug\net6.0\BouncyCastle.Crypto.dll
