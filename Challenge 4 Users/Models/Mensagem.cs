@@ -10,7 +10,7 @@ namespace Challenge_4_Users.Models {
             Destinatario = new List<MailboxAddress>();
             Destinatario.AddRange(destinatario.Select(d => new MailboxAddress("", d)));
             Assunto = assunto;
-            Conteudo = $"http://localhost:7500/ativa?UsuarioId={usuarioId}&CodigoDeAtivacao={codigo}";
+            Conteudo = $"http://localhost:5256/activate?UserId={usuarioId}&ActivationCode={codigo}";
         }
     }
 }
