@@ -13,6 +13,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddDbContext<UserDbContext>(opt => opt.UseMySql(builder.Configuration.GetConnectionString("UsuarioConnection"),new MySqlServerVersion(new Version(8, 0))));
+
 builder.Services.AddIdentity<IdentityUser<int>, IdentityRole<int>>(
     opt => opt.SignIn.RequireConfirmedEmail = true
     )
@@ -25,6 +26,7 @@ builder.Services.AddScoped<CadastroService, CadastroService>();
 builder.Services.AddScoped<LoginService, LoginService>();
 builder.Services.AddScoped<LogoutService, LogoutService>();
 builder.Services.AddScoped<EmailService, EmailService>();
+builder.Services.AddScoped<TokenService, TokenService>();
 
 var app = builder.Build();
 

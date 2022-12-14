@@ -19,7 +19,7 @@ namespace Challenge_4_Users.Controllers {
         public IActionResult LogaUsuario(LoginRequest request) {
             Result resultado = _loginService.LogaUsuario(request);
             if (resultado.IsFailed) return Unauthorized();
-            return Ok();
+            return Ok(resultado.Successes.First());
         }
     }
 }

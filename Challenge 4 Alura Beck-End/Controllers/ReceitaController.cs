@@ -2,8 +2,10 @@
 using Challenge_4_Alura_Beck_End.Models;
 using Challenge_4_Alura_Beck_End.Service;
 using FluentResults;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.FileProviders;
+using System.Data;
 
 namespace Challenge_4_Alura_Beck_End.Controllers {
     [ApiController]
@@ -17,6 +19,7 @@ namespace Challenge_4_Alura_Beck_End.Controllers {
         }
 
         [HttpPost]
+        [Authorize(Roles = "authorized")]
         public IActionResult CadastroReceita([FromBody] CreateReceitaDto createDto) {
             ReadReceitaDto readDto = _receitaService.CadastroReceita(createDto);
             if (readDto == null) {
@@ -26,6 +29,7 @@ namespace Challenge_4_Alura_Beck_End.Controllers {
         }
 
         [HttpGet]
+        [Authorize(Roles = "authorized")]
         public IActionResult BuscaReceita([FromQuery] string? descricao = null) {
             List<ReadReceitaDto> readDto = _receitaService.BuscaReceita(descricao);
             if (readDto != null) return Ok(readDto);
@@ -33,6 +37,7 @@ namespace Challenge_4_Alura_Beck_End.Controllers {
         }
 
         [HttpGet("{id}")]
+        [Authorize(Roles = "authorized")]
         public IActionResult BuscaReceitaPorId(int id) {
             ReadReceitaDto readDto = _receitaService.BuscaReceitaPorId(id);
             if (readDto != null) return Ok(readDto);
@@ -40,6 +45,7 @@ namespace Challenge_4_Alura_Beck_End.Controllers {
         }
 
         [HttpGet("{ano}/{mes}")]
+        [Authorize(Roles = "authorized")]
         public IActionResult BuscaReceitaPorMes(int ano, int mes) {
             List<ReadReceitaDto> readDto = _receitaService.BuscaReceitaPorMes(ano, mes);
             if (readDto != null) return Ok(readDto);
@@ -47,6 +53,7 @@ namespace Challenge_4_Alura_Beck_End.Controllers {
         }
 
         [HttpPut("{id}")]
+        [Authorize(Roles = "authorized")]
         public IActionResult AtualizaReceita(int id, [FromBody] UpdateReceitaDto updateDto) {
             Result resultado = _receitaService.AtualizaReceita(id, updateDto);
             if (resultado.IsSuccess) return Ok();
@@ -54,6 +61,7 @@ namespace Challenge_4_Alura_Beck_End.Controllers {
         }
 
         [HttpDelete("{id}")]
+        [Authorize(Roles = "authorized")]
         public IActionResult DeletaReceita(int id) {
             Result resultado = _receitaService.DeletaReceita(id);
             if (resultado.IsSuccess) return Ok();

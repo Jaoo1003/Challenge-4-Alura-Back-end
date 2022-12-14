@@ -27,6 +27,7 @@ namespace Challenge_4_Users.Services {
             Task<IdentityResult> resultado = _userManager.CreateAsync(userIdentity, createDto.Password);
 
             if (resultado.Result.Succeeded) {
+                _userManager.AddToRoleAsync(userIdentity, "authorized");
                 var code = _userManager.GenerateEmailConfirmationTokenAsync(userIdentity).Result;
                 var encodedCode = HttpUtility.UrlEncode(code);
 
